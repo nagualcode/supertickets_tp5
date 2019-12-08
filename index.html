@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Frederico Flores e Arthur Costi" content="Tp5 do Projeto de Bloco Frontend - Infnet 2019">
+    <title>Super Tickets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="icons.css">
+    <link href="css/estilos.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="navbar navbar-dark bg-dark fixed-top box-shadow">
+        <div class="container d-flex justify-content-end">
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Evento ou local..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span id="numero_de_tickets">[1] </span><span class="icon-credit-card"></span></button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><span class="icon-users"></span></button> 
+        </div>
+      </div>
+    </header>
+    <main>
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Super Tickets</h1>
+          <p class="lead text-muted">Bem vindo ao melhor site de compra de ingressos do mundo!</p>        
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                  <div class="card-header">TipoEvento</div>
+                <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-title">Evento</p>
+                  <p class="card-subtitle mb-2 text-muted">Local</p>
+                  <p class="card-text">#Tags</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><span class="icon-ticket"></span></button>
+                    </div>
+                    <small class="text-muted">Data</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    <div class="card-header">TipoEvento</div>
+                  <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-title">Evento</p>
+                    <p class="card-subtitle mb-2 text-muted">Local</p>
+                    <p class="card-text">#Tags</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary"><span class="icon-ticket"></span></button>
+                      </div>
+                      <small class="text-muted">Data</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card mb-4 box-shadow">
+                      <div class="card-header">TipoEvento</div>
+                    <img class="card-img-top" src="https://via.placeholder.com/100" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-title">Evento</p>
+                      <p class="card-subtitle mb-2 text-muted">Local</p>
+                      <p class="card-text">#Tags</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                          <button type="button" class="btn btn-sm btn-outline-secondary"><span class="icon-ticket"></span></button>
+                        </div>
+                        <small class="text-muted">Data</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          
+<div class="text-center collapse" id="maisEventos">
+...
+  </div>
+
+<div class="text-center"> 
+
+                <button class="btn btn-primary hide-me" type="button" data-toggle="collapse" data-target="#maisEventos" aria-expanded="false">
+                    +
+                  </button>
+                </div>
+
+   
+                <section class="jumbotron text-center">
+                    <div class="container">
+                        <h2 class="jumbotron-heading">Categorias</h2>
+                      <p>
+                        <a href="#" class="btn btn-success my-2">Música</a>
+                        <a href="#" class="btn btn-info my-2">Teatro</a>
+                        <a href="#" class="btn btn-warning my-2">Gastronomia</a>
+                        <a href="#" class="btn btn-danger my-2">Educação</a>
+                      </p>
+                    
+                    </div>
+                  </section>
+  
+                </div>
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+            <a href="#"><span class="icon-instagram"></span></a>
+            <a href="#"><span class="icon-youtube"></span></a>
+            <a href="#"><span class="icon-spotify"></span></a>
+            <a href="#"><span class="icon-github"></span></a>
+        </p>
+
+        <p>O melhor site de ingressos do mundpo!</p>
+        <p>Novo por aqui? <a href="#">Visite nosso F.A.Q.</a> e se precisar de ajuda <a href="#">fale com a gente</a>.</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
